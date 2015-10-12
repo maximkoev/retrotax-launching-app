@@ -1,6 +1,6 @@
 package com.retrotax.test.web.tests.abstracttests;
 
-import com.retrotax.test.web.config.*;
+import com.retrotax.test.web.models.TestConfig;
 import org.glassfish.jersey.client.ClientConfig;
 import org.glassfish.jersey.client.authentication.HttpAuthenticationFeature;
 import org.junit.Before;
@@ -34,17 +34,17 @@ public abstract class AbstractTest {
     @Before
     public void setUp() throws Exception {
         DesiredCapabilities capability = new DesiredCapabilities();
-        capability.setCapability("platform", CONFIG.getCapabilities().getPlatform());
-        capability.setCapability("browserName", CONFIG.getCapabilities().getBrowserName());
-        capability.setCapability("version", CONFIG.getCapabilities().getVersion());
-        capability.setCapability("resolution", CONFIG.getCapabilities().getResolution());
+        capability.setCapability("os", CONFIG.getCapabilities().getOs());
+        capability.setCapability("os_version", CONFIG.getCapabilities().getOsVersion());
+        capability.setCapability("browser", CONFIG.getCapabilities().getBrowser());
+        capability.setCapability("browser_version", CONFIG.getCapabilities().getBrowserVersion());
 
         capability.setCapability("build", CONFIG.getCapabilities().getBuild());
         capability.setCapability("project", CONFIG.getCapabilities().getProject());
         capability.setCapability("name", getTestName());
 
-        capability.setCapability("browserstack.debug", CONFIG.getCapabilities().getBrowserstack_debug());
-        capability.setCapability("acceptSslCerts", CONFIG.getCapabilities().getAcceptSslCerts());
+        capability.setCapability("browserstack.debug", CONFIG.getCapabilities().isBrowserstackDebug());
+        capability.setCapability("acceptSslCerts", CONFIG.getCapabilities().isAcceptSslCerts());
 
         StringBuilder url = new StringBuilder("http://");
         if(CONFIG.getCapabilities().getUsername() != null) {
