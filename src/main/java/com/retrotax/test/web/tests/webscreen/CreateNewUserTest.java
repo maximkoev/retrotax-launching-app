@@ -2,29 +2,36 @@ package com.retrotax.test.web.tests.webscreen;
 
 import com.retrotax.test.web.tests.abstracttests.AbstractTest;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by Maxym on 08/10/2015.
- */
 public class CreateNewUserTest extends AbstractTest {
-    String base_URL;
-    String user;
-    String pass, text, SwitchToAdmin, gotoUsers, mail;
+
+    String loginPage, user, pass, text, adminPage, usersPage, mail;
+
+    @Before
+    public void setUp() throws Exception{
+        super.setUp();
+        loginPage = PAGE_URL + "users/login";
+        user = "justdoitAdmin";
+        pass = "LetJustDoItIn";
+        text = "Anything";
+        adminPage = PAGE_URL + "admin/index";
+        usersPage = PAGE_URL + "users/index";
+        mail = "just@do-it.co";
+    }
 
     @Test
     public void test() throws InterruptedException {
-        WebDriver driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.get(base_URL);
+        driver.get(loginPage);
         //driver.findElement(By.linkText("Login")).click();
         WebElement name = driver.findElement(By.id("user-username"));
         name.clear();
@@ -33,8 +40,8 @@ public class CreateNewUserTest extends AbstractTest {
         password.clear();
         password.sendKeys(pass);
         password.submit();
-        driver.get(SwitchToAdmin);
-        driver.get(gotoUsers);
+        driver.get(adminPage);
+        driver.get(usersPage);
         driver.findElement(By.id("new_user")).click();
 
         // fill out all fields
@@ -67,6 +74,7 @@ public class CreateNewUserTest extends AbstractTest {
         Assert.assertTrue(isElementPresent(driver, By.name("Successfully creates a new user.")));
 
     }
+
     private boolean isElementPresent(WebDriver driver, By by) {
         try {
             driver.findElement(by);

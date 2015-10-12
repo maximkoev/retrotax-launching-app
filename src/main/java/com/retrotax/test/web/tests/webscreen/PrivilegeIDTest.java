@@ -2,29 +2,34 @@ package com.retrotax.test.web.tests.webscreen;
 
 import com.retrotax.test.web.tests.abstracttests.AbstractTest;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by Maxym on 04/10/2015.
- */
 public class PrivilegeIDTest extends AbstractTest {
-    String base_URL;
-    String user;
-    String pass, text, SwitychToAdmin;
+
+    String loginPage, user, pass, text, adminPage;
+
+    @Before
+    public void setUp() throws Exception{
+        super.setUp();
+        loginPage = PAGE_URL + "users/login";
+        user = "justdoitAdmin";
+        pass = "LetJustDoItIn";
+        text = "Anything";
+        adminPage = PAGE_URL + "admin/index";
+    }
 
     @Test
     public void test() throws InterruptedException{
-        WebDriver driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.get(base_URL);
+        driver.get(loginPage);
        // driver.findElement(By.linkText("Login")).click();
         WebElement name = driver.findElement(By.id("user-username"));
         name.clear();
@@ -33,13 +38,12 @@ public class PrivilegeIDTest extends AbstractTest {
         password.clear();
         password.sendKeys(pass);
         driver.findElement(By.cssSelector("input[type=\"submit\"]")).click();
-        driver.get(SwitychToAdmin);
+        driver.get(adminPage);
         driver.findElement(By.id("content")).click();
         driver.findElement(By.linkText("Update Account")).click();
         Select PrivID = new Select(driver.findElement(By.id("user-privilegeid")));
         PrivID.selectByVisibleText("Select Privilege");
         driver.findElement(By.cssSelector("input[type=\"submit\"]")).click();
-
 
         try {
             Assert.assertTrue(isElementPresent(driver,By.name("Privilege Id cannot be empty" )));

@@ -2,27 +2,33 @@ package com.retrotax.test.web.tests.webscreen;
 
 import com.retrotax.test.web.tests.abstracttests.AbstractTest;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by Maxym on 07/10/2015.
- */
 public class AutoLoginLinkTest extends AbstractTest {
-    String base_URL;
-    String user;
-    String pass, text, SwitychToAdmin, gotoUsers, mail,LoginLink,CurrentLink;
+
+    String loginPage, user, pass, text, adminPage, usersPage, mail, LoginLink, CurrentLink;
+
+    @Before
+    public void setUp() throws Exception{
+        super.setUp();
+        loginPage = PAGE_URL + "users/login";
+        user = "justdoitAdmin";
+        pass = "LetJustDoItIn";
+        text = "Anything";
+        adminPage = PAGE_URL + "admin/index";
+        usersPage = PAGE_URL + "users/index";
+        mail = "just@do-it.co";
+    }
 
     @Test
     public void test() throws InterruptedException {
-        WebDriver driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.get(base_URL);
+        driver.get(loginPage);
         //driver.findElement(By.linkText("Login")).click();
         WebElement name = driver.findElement(By.id("user-username"));
         name.clear();
@@ -31,8 +37,8 @@ public class AutoLoginLinkTest extends AbstractTest {
         password.clear();
         password.sendKeys(pass);
         password.submit();
-        driver.get(SwitychToAdmin);
-        driver.get(gotoUsers);
+        driver.get(adminPage);
+        driver.get(usersPage);
         driver.findElement(By.id("new_user")).click();
         // fill out all fields
         WebElement Username = driver.findElement(By.id("user-username"));
