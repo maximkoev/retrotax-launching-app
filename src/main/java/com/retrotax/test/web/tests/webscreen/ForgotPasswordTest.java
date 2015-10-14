@@ -9,9 +9,7 @@ import org.openqa.selenium.WebElement;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by Maxym on 14/10/2015.
- */
+
 public class ForgotPasswordTest extends AbstractTest {
 
     String loginPage, user, pass, text, adminPage, usersPage, mail;
