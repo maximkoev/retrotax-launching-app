@@ -32,7 +32,7 @@ public class CreateNewUserTest extends AbstractTest {
     public void test() throws InterruptedException {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(loginPage);
-        //driver.findElement(By.linkText("Login")).click();
+        // Authorization
         WebElement name = driver.findElement(By.id("user-username"));
         name.clear();
         name.sendKeys(user);
@@ -40,6 +40,7 @@ public class CreateNewUserTest extends AbstractTest {
         password.clear();
         password.sendKeys(pass);
         password.submit();
+        // Authorization
         driver.get(adminPage);
         driver.get(usersPage);
         driver.findElement(By.id("new_user")).click();

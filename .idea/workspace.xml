@@ -1,7 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1d3209a-3151-4348-a15c-83955ec570a5" name="Default" comment="">
+    <list default="true" id="f1d3209a-3151-4348-a15c-83955ec570a5" name="Default" comment="DownLoadVetFormTest">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/DownLoadVetFormTest.java" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\Address2AutoCompleteTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\Address2CompleteTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\AddressAutoCompleteTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\AddressCompleteTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\AddressValidationTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\AgencyQPresentTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\CalendarChooseMonthTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\CalendarClickTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\CalendarMiddleBtnTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\CityAutoCompleteTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\CityCompleteTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\CityFieldCompleteTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\CloseBtnTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\CompleteFromHomepageBasicInfoTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\CompleteFromPopupBasicInfoTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\CountryFieldCompleteTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\DateOfBirthCompleteTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\DeleteErrMessageTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\FelonQTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\FirstNameAutoCompleteTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\FirstNameCompleteTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\FirstNameValidationTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\LastNameAutoCompleteTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\LastNameCompleteTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\LastNameValidationTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\LeftMouseClickOnBasicInfoTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\MilitaryQTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\NATQTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\PressRetrotaxLabelTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\QuestionnaireBtnTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\RecipientNameFieldCompleteTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\RecipientRelationshipFieldCompleteTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\RehabilitationQTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\SNAPQTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\SSIQTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\StateAutoCompleteTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\StateCompleteTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\StateFieldCompleteTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\TANFQTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\TtWPQPresentTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\UnemployedQTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\VacationRehubBtnTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\VerifyAllErrorMessageTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\VetAffairsQPresentTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\YesNoBtnTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\automate-java-Tests\Webscreen\target\classes\com\retrotax\test\web\tests\ZipTest.class" afterPath="" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\Address2AutoCompleteTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/Address2AutoCompleteTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\Address2CompleteTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/Address2CompleteTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\AddressAutoCompleteTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/AddressAutoCompleteTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\AddressCompleteTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/AddressCompleteTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\AddressValidationTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/AddressValidationTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\AgencyQPresentTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/AgencyQPresentTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\CalendarChooseMonthTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/CalendarChooseMonthTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\CalendarClickTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/CalendarClickTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\CalendarMiddleBtnTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/CalendarMiddleBtnTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\CityAutoCompleteTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/CityAutoCompleteTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\CityCompleteTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/CityCompleteTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\CityFieldCompleteTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/CityFieldCompleteTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\CloseBtnTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/CloseBtnTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\CompleteFromHomepageBasicInfoTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/CompleteFromHomepageBasicInfoTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\CompleteFromPopupBasicInfoTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/CompleteFromPopupBasicInfoTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\CountryFieldCompleteTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/CountryFieldCompleteTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\DateOfBirthCompleteTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/DateOfBirthCompleteTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\DeleteErrMessageTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/DeleteErrMessageTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\FelonQTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/FelonQTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\FirstNameAutoCompleteTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/FirstNameAutoCompleteTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\FirstNameCompleteTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/FirstNameCompleteTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\FirstNameValidationTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/FirstNameValidationTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\LastNameAutoCompleteTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/LastNameAutoCompleteTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\LastNameCompleteTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/LastNameCompleteTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\LastNameValidationTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/LastNameValidationTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\LeftMouseClickOnBasicInfoTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/LeftMouseClickOnBasicInfoTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\MilitaryQTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/MilitaryQTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\NATQTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/NATQTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\PressRetrotaxLabelTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/PressRetrotaxLabelTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\QuestionnaireBtnTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/QuestionnaireBtnTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\RecipientNameFieldCompleteTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/RecipientNameFieldCompleteTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\RecipientRelationshipFieldCompleteTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/RecipientRelationshipFieldCompleteTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\RehabilitationQTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/RehabilitationQTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\SNAPQTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/SNAPQTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\SSIQTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/SSIQTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\StateAutoCompleteTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/StateAutoCompleteTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\StateCompleteTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/StateCompleteTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\StateFieldCompleteTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/StateFieldCompleteTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\TANFQTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/TANFQTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\TtWPQPresentTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/TtWPQPresentTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\UnemployedQTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/UnemployedQTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\VacationRehubBtnTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/VacationRehubBtnTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\VerifyAllErrorMessageTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/VerifyAllErrorMessageTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\VetAffairsQPresentTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/VetAffairsQPresentTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\YesNoBtnTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/YesNoBtnTest.java" />
+      <change type="MOVED" beforePath="C:\automate-java-Tests\Webscreen\src\main\java\com\retrotax\test\web\tests\ZipTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/ZipTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/CreateNewUserTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/CreateNewUserTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/ForgotPasswordTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/ForgotPasswordTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -16,6 +110,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/web$DownLoadVetFormTest.coverage" NAME="DownLoadVetFormTest Coverage Results" MODIFIED="1444832976754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.retrotax.test.web.tests.webscreen.*</FILTER>
+    </SUITE>
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -25,24 +124,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ATCAccCheckboxTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/ATCAccCheckboxTest.java">
+      <file leaf-file-name="DownLoadVetFormTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/DownLoadVetFormTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZipTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/ZipTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ForgotPasswordTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/ForgotPasswordTest.java">
+      <file leaf-file-name="AgencyQPresentTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/AgencyQPresentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.50596255">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.18398637">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/testTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="URLClassLoader.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/net/URLClassLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="380" column="0" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatchingPassNewUserTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/MatchingPassNewUserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrivilegeIDTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/PrivilegeIDTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="50" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="50" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,18 +202,20 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/CreateNewUserTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <caret line="23" column="31" selection-start-line="22" selection-start-column="8" selection-end-line="23" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/abstracttests/AbstractTest.java">
+      <file leaf-file-name="ForgotPasswordTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/ForgotPasswordTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,6 +225,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -89,7 +243,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/models/Capabilities.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/CreateNewUserTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/ForgotPasswordTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/DownLoadVetFormTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/testTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/ZipTest.java" />
       </list>
     </option>
   </component>
@@ -229,72 +388,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Webscreen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Webscreen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="retrotax" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Webscreen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -326,36 +419,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Webscreen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -422,70 +485,6 @@
               <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="abstracttests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Webscreen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Webscreen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -510,40 +509,14 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="SearchEverywhereHistoryKey" value="assertTrue&#9;PSI&#9;JAVA://javax.validation.constraints.AssertTrue&#10;setPage&#9;PSI&#9;JAVA://com.retrotax.test.web.models.TestConfig#setPageUrl&#10;PAGE_URL&#9;PSI&#9;JAVA://com.retrotax.test.web.tests.abstracttests.AbstractTest#PAGE_URL" />
   </component>
-  <component name="RunManager" selected="JUnit.ATCAccCheckboxTest.test">
-    <configuration default="false" name="web [spring-boot:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="spring-boot:run" />
-              </list>
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.retrotax.test.web.tests.webscreen" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.testTest">
     <configuration default="false" name="ForgotPasswordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -584,6 +557,84 @@
       <option name="MAIN_CLASS_NAME" value="com.retrotax.test.web.tests.webscreen.ATCAccCheckboxTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DownLoadVetFormTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.retrotax.test.web.tests.webscreen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="web" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.retrotax.test.web.tests.webscreen" />
+      <option name="MAIN_CLASS_NAME" value="com.retrotax.test.web.tests.webscreen.DownLoadVetFormTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DownLoadVetFormTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.retrotax.test.web.tests.webscreen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="web" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.retrotax.test.web.tests.webscreen" />
+      <option name="MAIN_CLASS_NAME" value="com.retrotax.test.web.tests.webscreen.DownLoadVetFormTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="testTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.retrotax.test.web.tests.webscreen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="web" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.retrotax.test.web.tests.webscreen" />
+      <option name="MAIN_CLASS_NAME" value="com.retrotax.test.web.tests.webscreen.testTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -710,16 +761,20 @@
       <listeners />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Maven.web [spring-boot:run]" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ForgotPasswordTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ATCAccCheckboxTest.test" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ForgotPasswordTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ATCAccCheckboxTest.test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DownLoadVetFormTest.test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DownLoadVetFormTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.testTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ATCAccCheckboxTest.test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ForgotPasswordTest" />
-        <item index="2" class="java.lang.String" itemvalue="Maven.web [spring-boot:run]" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.testTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DownLoadVetFormTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ForgotPasswordTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DownLoadVetFormTest.test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ATCAccCheckboxTest.test" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -744,7 +799,13 @@
       <option name="project" value="LOCAL" />
       <updated>1444822385945</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ForgotPasswordTest">
+      <created>1444822428976</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1444822428976</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -759,15 +820,16 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329375" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3935135" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53081083" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948583" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31854838" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18467996" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5306389" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5297297" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -777,7 +839,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -794,11 +856,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ForgotPasswordTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="ForgotPasswordTest" />
+    <MESSAGE value="DownLoadVetFormTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="DownLoadVetFormTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/DownLoadVetFormTest.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -807,94 +878,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/controllers/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="95" column="16" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/models/Capabilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/abstracttests/AbstractTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="69" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/security/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/controllers/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="95" column="16" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/models/Capabilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/abstracttests/AbstractTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="69" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/security/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1020,46 +1003,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/security/TestingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8583691">
-          <caret line="58" column="58" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/database/TestConfigRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/database/CapabilitiesRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23556583">
           <caret line="6" column="75" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/database/TestFileRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="77" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/database/TestResultRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="71" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/database/TestFailureRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25888324">
-          <caret line="6" column="73" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="73" />
         </state>
       </provider>
     </entry>
@@ -1070,39 +1017,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/models/TestFailure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6040609">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/models/TestConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4314721">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/models/TestFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34517765">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1123,14 +1041,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/models/Capabilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1139,10 +1049,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/abstracttests/AbstractTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/security/TestingService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <caret line="58" column="58" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/database/TestFailureRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="73" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/database/TestFileRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18398637">
+          <caret line="6" column="77" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/database/TestConfigRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18398637">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/models/Capabilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+          <folding>
+            <element signature="e#1391#1392#0" expanded="false" />
+            <element signature="e#1416#1417#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/models/TestFailure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7018739">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/models/TestFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/Address2AutoCompleteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22998296">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/models/TestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.2078364">
+          <caret line="65" column="29" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+          <folding>
+            <element signature="e#1606#1607#0" expanded="true" />
+            <element signature="e#1644#1645#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/database/TestResultRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18398637">
+          <caret line="6" column="71" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/AutoLoginLinkTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1155,21 +1183,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/CreateNewUserTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/ValidEmaiAccTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/abstracttests/AbstractTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="10" selection-start-line="36" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/ForgotPasswordTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50596255">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar!/javax/validation/constraints/AssertTrue.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.96875">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/CreateNewUserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="31" selection-start-line="22" selection-start-column="8" selection-end-line="23" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar!/javax/validation/constraints/AssertTrue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33295965">
+          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/PrivilegeIDTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="380" column="0" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/MatchingPassNewUserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/testTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/webscreen/DownLoadVetFormTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/ZipTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/retrotax/test/web/tests/plugin/AgencyQPresentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18398637">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

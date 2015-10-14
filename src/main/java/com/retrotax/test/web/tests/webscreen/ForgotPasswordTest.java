@@ -41,6 +41,7 @@ public class ForgotPasswordTest extends AbstractTest {
 
 
     }
+    @Override
     public String getTestName(){return "ForgotPasswordTest";}
 }
 
