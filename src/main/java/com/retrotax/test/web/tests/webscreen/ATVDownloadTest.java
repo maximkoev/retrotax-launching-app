@@ -12,8 +12,10 @@ import org.openqa.selenium.firefox.FirefoxProfile;
 import java.io.File;
 import java.util.concurrent.TimeUnit;
 
-
-public class DownLoadFelonFormTest  {
+/**
+ * Created by Maxym on 15/10/2015.
+ */
+public class ATVDownloadTest {
     String url, page, employees, user, pass;
     private static String downloadPath ="C:\\Users\\Maxym\\Downloads";
     private WebDriver driver;
@@ -44,9 +46,9 @@ public class DownLoadFelonFormTest  {
 
 
         driver.get(employees);
-        driver.findElement(By.linkText("Download Felon Form")).click();
+        driver.findElement(By.linkText("Download ATV Form")).click();
         // TODO: I don't know filename because downloading doesn't work in dev instance. Please fix it.
-        Assert.assertTrue(isFileDownloaded(downloadPath, "Felon.pdf"));
+        Assert.assertTrue(isFileDownloaded(downloadPath, "ATV.pdf"));
 
     }
     public static FirefoxProfile firefoxProfile() throws Exception {
@@ -72,7 +74,4 @@ public class DownLoadFelonFormTest  {
 
         return flag;
     }
-
-//    @Override
-//    public String getTestName(){return "DownLoadFelonFormTest";}
 }

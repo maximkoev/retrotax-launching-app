@@ -1,8 +1,6 @@
 package com.retrotax.test.web.tests.webscreen;
 
-import junit.framework.Assert;
 import org.junit.Before;
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,7 +11,7 @@ import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 
-public class DownLoadFelonFormTest  {
+public class SSADownloadTest {
     String url, page, employees, user, pass;
     private static String downloadPath ="C:\\Users\\Maxym\\Downloads";
     private WebDriver driver;
@@ -39,14 +37,14 @@ public class DownLoadFelonFormTest  {
 
     }
 
-    @Test
+    @org.junit.Test
     public  void test() throws Exception {
 
 
         driver.get(employees);
-        driver.findElement(By.linkText("Download Felon Form")).click();
+        driver.findElement(By.linkText("Download SSA Form")).click();
         // TODO: I don't know filename because downloading doesn't work in dev instance. Please fix it.
-        Assert.assertTrue(isFileDownloaded(downloadPath, "Felon.pdf"));
+        junit.framework.Assert.assertTrue(isFileDownloaded(downloadPath, "SSA.pdf"));
 
     }
     public static FirefoxProfile firefoxProfile() throws Exception {
@@ -72,7 +70,4 @@ public class DownLoadFelonFormTest  {
 
         return flag;
     }
-
-//    @Override
-//    public String getTestName(){return "DownLoadFelonFormTest";}
 }
