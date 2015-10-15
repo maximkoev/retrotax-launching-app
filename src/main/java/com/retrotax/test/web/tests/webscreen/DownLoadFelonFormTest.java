@@ -13,7 +13,7 @@ import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 
-public class DownLoadVetFormTest  {
+public class DownLoadFelonFormTest  {
     String url, page, employees, user, pass;
     private static String downloadPath ="C:\\Users\\Maxym\\Downloads";
     private WebDriver driver;
@@ -37,18 +37,18 @@ public class DownLoadVetFormTest  {
         password.submit();
         // Authorization
 
-        }
+    }
 
-       @Test
+    @Test
     public  void test() throws Exception {
 
 
-    driver.get(employees);
-    driver.findElement(By.linkText("Download VET Form")).click();
-     // TODO: I don't know filename because downloading doesn't work in dev instance. Please fix it.
-     Assert.assertTrue(isFileDownloaded(downloadPath, "filename.pdf"));
+        driver.get(employees);
+        driver.findElement(By.linkText("Download VET Form")).click();
+        // TODO: I don't know filename because downloading doesn't work in dev instance. Please fix it.
+        Assert.assertTrue(isFileDownloaded(downloadPath, "Felon.pdf"));
 
- }
+    }
     public static FirefoxProfile firefoxProfile() throws Exception {
 
         FirefoxProfile firefoxProfile = new FirefoxProfile();
@@ -74,5 +74,5 @@ public class DownLoadVetFormTest  {
     }
 
 //    @Override
-//    public String getTestName(){return "DownLoadVetFormTest";}
+//    public String getTestName(){return "DownLoadFelonFormTest";}
 }
