@@ -47,7 +47,6 @@ public class ATVDownloadTest {
 
         driver.get(employees);
         driver.findElement(By.linkText("Download ATV")).click();
-        // TODO: I don't know filename because downloading doesn't work in dev instance. Please fix it.
         Assert.assertTrue(isFileDownloaded(downloadPath, "747951-atv.pdf"));
 
     }
