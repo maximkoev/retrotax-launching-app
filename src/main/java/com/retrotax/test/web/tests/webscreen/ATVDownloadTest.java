@@ -46,9 +46,9 @@ public class ATVDownloadTest {
 
 
         driver.get(employees);
-        driver.findElement(By.linkText("Download ATV Form")).click();
+        driver.findElement(By.linkText("Download ATV")).click();
         // TODO: I don't know filename because downloading doesn't work in dev instance. Please fix it.
-        Assert.assertTrue(isFileDownloaded(downloadPath, "ATV.pdf"));
+        Assert.assertTrue(isFileDownloaded(downloadPath, "747951-atv.pdf"));
 
     }
     public static FirefoxProfile firefoxProfile() throws Exception {
@@ -57,8 +57,9 @@ public class ATVDownloadTest {
         firefoxProfile.setPreference("browser.download.folderList",2);
         firefoxProfile.setPreference("browser.download.manager.showWhenStarting",false);
         firefoxProfile.setPreference("browser.download.dir",downloadPath);
-        firefoxProfile.setPreference("browser.helperApps.neverAsk.saveToDisk",
-                "application/pdf");
+        // Use this to disable Acrobat plugin for previewing PDFs in Firefox (if you have Adobe reader installed on your computer)
+        firefoxProfile.setPreference("plugin.scan.Acrobat", "99.0");
+        firefoxProfile.setPreference("plugin.scan.plid.all", false);
 
         return firefoxProfile;
     }

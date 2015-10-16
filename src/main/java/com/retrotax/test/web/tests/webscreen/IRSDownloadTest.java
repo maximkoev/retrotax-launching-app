@@ -1,5 +1,6 @@
-package com.retrotax.test.web.tests.webscreen;
+package test;
 
+import junit.framework.Assert;
 import org.junit.Before;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -13,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 
 public class IRSDownloadTest {
     String url, page, employees, user, pass;
-    private static String downloadPath ="C:\\Users\\Maxym\\Downloads";
+    private static String downloadPath ="C:\\Users\\User\\Downloads";
     private WebDriver driver;
     @Before
     public  void setUp() throws Exception{
@@ -42,9 +43,8 @@ public class IRSDownloadTest {
 
 
         driver.get(employees);
-        driver.findElement(By.linkText("Download IRS Form")).click();
-        // TODO: I don't know filename because downloading doesn't work in dev instance. Please fix it.
-        junit.framework.Assert.assertTrue(isFileDownloaded(downloadPath, "IRS.pdf"));
+        driver.findElement(By.linkText("Download IRS Form 8850")).click();
+        Assert.assertTrue(isFileDownloaded(downloadPath, "747951-8850.pdf"));
 
     }
     public static FirefoxProfile firefoxProfile() throws Exception {
@@ -53,8 +53,12 @@ public class IRSDownloadTest {
         firefoxProfile.setPreference("browser.download.folderList",2);
         firefoxProfile.setPreference("browser.download.manager.showWhenStarting",false);
         firefoxProfile.setPreference("browser.download.dir",downloadPath);
+        firefoxProfile.setPreference("pdfjs.disabled", true);
         firefoxProfile.setPreference("browser.helperApps.neverAsk.saveToDisk",
-                "application/pdf");
+                "application/octet-stream, application/pdf");
+        // Use this to disable Acrobat plugin for previewing PDFs in Firefox (if you have Adobe reader installed on your computer)
+        firefoxProfile.setPreference("plugin.scan.Acrobat", "99.0");
+        firefoxProfile.setPreference("plugin.scan.plid.all", false);
 
         return firefoxProfile;
     }
